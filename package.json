@@ -37,7 +37,7 @@
     "json-rpc2": "git://github.com/BitGo/node-jsonrpc2.git#httpsRPCServer",
     "lodash": "2.4.1",
     "q": "^1.1.2",
-    "read": "1.0.5",
+    "read": "1.0.7",
     "underscore.string": "2.4.0",
     "winston": "^2.3.1"
   },
