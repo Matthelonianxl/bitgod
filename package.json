@@ -8,7 +8,9 @@
   },
   "scripts": {
     "coverage": "ulimit -S -n 1024; istanbul cover _mocha -- --ui bdd --reporter spec ./test --recursive -t 10000",
-    "test": "ulimit -S -n 1024; mocha --ui bdd --reporter spec ./test --recursive -t 5000"
+    "test": "ulimit -S -n 1024; mocha --ui bdd --reporter spec ./test --recursive -t 5000",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -39,7 +41,8 @@
     "q": "^1.1.2",
     "read": "1.0.5",
     "underscore.string": "2.4.0",
-    "winston": "^2.3.1"
+    "winston": "^2.3.1",
+    "snyk": "^1.230.5"
   },
   "preferGlobal": true,
   "devDependencies": {
@@ -47,5 +50,6 @@
     "mocha": "^2.1.0",
     "nock": "^0.58.0",
     "should": "^4.6.2"
-  }
+  },
+  "snyk": true
 }
