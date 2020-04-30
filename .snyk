@@ -1,0 +1,16 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - bitgo > prova-lib > lodash:
+        patched: '2020-04-30T23:40:38.153Z'
+    - bitgo > ripple-lib > lodash:
+        patched: '2020-04-30T23:40:38.153Z'
+    - bitgo > ripple-lib > ripple-binary-codec > lodash:
+        patched: '2020-04-30T23:40:38.153Z'
+    - bitgo > ripple-lib > ripple-lib-transactionparser > lodash:
+        patched: '2020-04-30T23:40:38.153Z'
+    - bitgo > ripple-lib > ripple-hashes > ripple-binary-codec > lodash:
+        patched: '2020-04-30T23:40:38.153Z'
