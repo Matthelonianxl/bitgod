@@ -33,7 +33,7 @@
     "argparse": "0.1.16",
     "assert": "0.4.9",
     "bitgo": "4.19.0",
-    "ini": "1.3.2",
+    "ini": "1.3.6",
     "json-rpc2": "git://github.com/BitGo/node-jsonrpc2.git#httpsRPCServer",
     "lodash": "2.4.1",
     "q": "^1.1.2",
