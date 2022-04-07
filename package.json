@@ -39,7 +39,7 @@
     "q": "^1.1.2",
     "read": "1.0.5",
     "underscore.string": "2.4.0",
-    "winston": "^2.3.1"
+    "winston": "^3.3.0"
   },
   "preferGlobal": true,
   "devDependencies": {
