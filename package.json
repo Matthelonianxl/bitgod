@@ -32,10 +32,10 @@
   "dependencies": {
     "argparse": "0.1.16",
     "assert": "0.4.9",
-    "bitgo": "4.19.0",
+    "bitgo": "4.30.1",
     "ini": "1.3.2",
     "json-rpc2": "git://github.com/BitGo/node-jsonrpc2.git#httpsRPCServer",
-    "lodash": "2.4.1",
+    "lodash": "4.17.17",
     "q": "^1.1.2",
     "read": "1.0.5",
     "underscore.string": "2.4.0",
